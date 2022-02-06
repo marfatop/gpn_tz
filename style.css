@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main__item{
+    flex-basis: 20%;
+    padding: 12px 20px;
+}
+@media only screen and (max-device-width: 480px) {
+    .main__item{
+        flex-basis: 100%;
+        padding: 2px 4px;
+    }
+}
